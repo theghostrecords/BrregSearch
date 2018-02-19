@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <title>Stacc søk</title>
+
+    <link href="https://code.jquery.com/ui/1.10.4/themes/blitzer/jquery-ui.css" rel="stylesheet">
+    <!-- Jquery import -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <!-- stylesheets-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet"/>
+
+    <!-- Own JS files load -->
+    <script src="js/home.js"></script>
+    <script src="js/requests.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="headerContainer">
+        <h1 onclick="window.location.assign('index.html')">Søk i Brønnøysundregisteret</h1>
+    </div>
+    <nav id="navbarContainer">
+        <ul>
+            <li><a href="index.html">Hjem</a></li>
+            <li><a href="index.html">Alt2</a></li>
+            <li><a href="index.html">Alt3</a></li>
+        </ul>
+    </nav>
+</div>
+
+<h2>Søk etter hovedenheter</h2>
+<div class="forms">
+    <form id="orgForm" name="orgNrSearch">
+        <input id="orgSearchField" name="orgnr" type="text" pattern="[(1-9]+){9}"
+               title="Gyldig organisasjonsnummer har lengde 9" required placeholder="Organisasjonsnummer...">
+        <button id="orgSearchButton" type="submit"></button>
+    </form>
+    <form id="nameForm" name="orgNameSearch">
+        <input id="nameSearchField" name="orgname" type="text" pattern="([a-zA-Z\-]){3,}" required
+               title="Navn må være lengre enn 2 bokstaver" autocomplete="off" placeholder="Organisasjonsnavn...">
+        <button id="nameSearchButton" type="submit"></button>
+        <div id="tabs" class="incrSearch">
+            <ul id="tabList">
+
+            </ul>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

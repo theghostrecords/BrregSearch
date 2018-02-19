@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result of query</title>
+
+    <link href="https://code.jquery.com/ui/1.10.4/themes/blitzer/jquery-ui.css" rel="stylesheet">
+    <!-- Jquery import -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <!-- stylesheets-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet"/>
+
+    <!-- Own JS files load -->
+    <script src="js/result.js"></script>
+    <script src="js/requests.js"></script>
+</head>
+<body onload="show()">
+<div class="header">
+    <div class="headerContainer">
+        <h1 onclick="window.location.assign('index.html')">Søk i Brønnøysundregisteret</h1>
+    </div>
+    <nav id="navbarContainer">
+        <ul>
+            <li><a href="index.html">Hjem</a></li>
+            <li><a href="index.html">Alt2</a></li>
+            <li><a href="index.html">Alt3</a></li>
+        </ul>
+    </nav>
+</div>
+
+<div id="searchResultContainer">
+</div>
+</body>
+</html>
