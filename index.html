@@ -33,13 +33,12 @@
 <h2>Søk etter hovedenheter</h2>
 <div class="forms">
     <form id="orgForm" name="orgNrSearch">
-        <input id="orgSearchField" name="orgnr" type="text" pattern="[(1-9]+){9}"
+        <input id="orgSearchField" name="orgnr" type="text" pattern="\d{9}"
                title="Gyldig organisasjonsnummer har lengde 9" required placeholder="Organisasjonsnummer...">
         <button id="orgSearchButton" type="submit"></button>
     </form>
     <form id="nameForm" name="orgNameSearch">
-        <input id="nameSearchField" name="orgname" type="text" pattern="([a-zA-Z\-]){3,}" required
-               title="Navn må være lengre enn 2 bokstaver" autocomplete="off" placeholder="Organisasjonsnavn...">
+        <input id="nameSearchField" name="orgname" type="text" autocomplete="off" placeholder="Organisasjonsnavn...">
         <button id="nameSearchButton" type="submit"></button>
         <div id="tabs" class="incrSearch">
             <ul id="tabList">
