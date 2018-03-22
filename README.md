@@ -1,10 +1,5 @@
 ﻿# BrregSearch
 Søk i Brønnøysundregisteret - på organisasjonsnummer og etter navn(live-search) 
-
- markup: * Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
-          * Bullet list item 2
 Funksjonalitet: 
 * Kan søke opp et selskap på 2 måter:
   * Basert på et gyldig organisasjonsnummer. Resultatet fra tjenesten skal
