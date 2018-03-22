@@ -1,5 +1,6 @@
 ﻿# BrregSearch
 Søk i Brønnøysundregisteret - på organisasjonsnummer og etter navn(live-search) 
+</br></br>
 Funksjonalitet: 
 * Kan søke opp et selskap på 2 måter:
   * Basert på et gyldig organisasjonsnummer. Resultatet fra tjenesten skal
@@ -9,7 +10,7 @@ Funksjonalitet:
   Når man velger et selskap skal informasjon om selskapet presenteres på en
   oversiktlig måte.
 
-* Konkurse bedrifter er tydelig merket.
+* Konkurs bedrifter er tydelig merket.
 * Dersom bedriften har hjemmeside er denne linket til
 
 bruker API: https://confluence.brreg.no/display/DBNPUB/API
