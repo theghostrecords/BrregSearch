@@ -14,3 +14,4 @@ Funksjonalitet:
 * Dersom bedriften har hjemmeside er denne linket til
 
 bruker API: https://confluence.brreg.no/display/DBNPUB/API
+Publisert på: https://theghostrecords.github.io/BrregSearch/
