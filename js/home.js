@@ -11,7 +11,7 @@ const pageSize = 100;
 function instantSearchName() {
     var name = document.getElementById("nameSearchField").value;
     var format = "json";
-    var url = "http://data.brreg.no/enhetsregisteret/enhet." + format + "?page=" + page + "&size=" + pageSize + "&$filter=startswith(navn,'" + name + "')";
+    var url = "https://data.brreg.no/enhetsregisteret/enhet." + format + "?page=" + page + "&size=" + pageSize + "&$filter=startswith(navn,'" + name + "')";
     getJSON(url);
 }
 
