@@ -20,7 +20,7 @@ function show() {
  */
 function getResult(nr) {
     var format = "json";
-    var url = "http://data.brreg.no/enhetsregisteret/enhet/" + nr + "." + format;
+    var url = "https://data.brreg.no/enhetsregisteret/enhet/" + nr + "." + format;
     getJSON(url);
 }
 
